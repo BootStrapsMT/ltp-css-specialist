@@ -1,0 +1,14 @@
+
+h1 {
+    color: darkcyan;
+    font-size: 2em;
+}
+
+.mBody {
+    width: 585px;
+    height: 400px;
+    background-image: url('images/1.jpg'), url('images/2.jpg');
+    background-size: 50% 15%;
+    background-repeat: no-repeat, repeat-x;
+    background-position: right bottom, left top;        
+}

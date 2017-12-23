@@ -1,0 +1,32 @@
+.sprite{
+    height: 80px;
+    width: 80px;
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+}
+.top .sprite{
+    background:  url("images/sp.gif") 160px 0;
+}
+.right .sprite{
+    background:  url("images/sp.gif") 80px 160px;
+}
+.botton .sprite{
+    background:  url("images/sp.gif") 160px 80px;
+}
+.left .sprite{
+    background:  url("images/sp.gif") 0px 160px;
+}
+
+.top .sprite:hover{
+    background:  url("images/sp.gif") 160px 80px;
+}
+.right .sprite:hover{
+    background:  url("images/sp.gif") 0px 160px;
+}
+.botton .sprite:hover{
+    background:  url("images/sp.gif") 160px 0;
+}
+.left .sprite:hover{
+    background:  url("images/sp.gif") 80px 160px;
+}
+

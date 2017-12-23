@@ -1,0 +1,16 @@
+
+#menu .sub_menu ul {
+    display: none;
+    position: fixed;
+}
+#menu .sub_menu:hover ul {
+    display: block;
+}
+#menu {
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+#menu td{
+    padding-left: 15px;
+    padding-right: 15px;
+}
