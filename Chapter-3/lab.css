@@ -3,4 +3,12 @@
     width: 200px;
     height: 200px;
     float: right;
+    border-width: 10px;
+    border-color: blue;
+    border-style: dashed;
+    margin: 60px 20px;
+    outline-style: groove;
+    outline-color: yellow;
+    outline-width: 25px;
+    background-color: red;    
 }

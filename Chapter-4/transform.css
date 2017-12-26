@@ -1,0 +1,31 @@
+
+.sBox {
+    float: left;
+    background-color: green;
+    padding: 10px;
+    width: 240px;
+    border: 1px dashed black;
+    margin: 10px;
+    outline: 10px solid red;
+   
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#img1 {
+    
+}
+#img1:hover {
+    -webkit-transform: translatey(90px);
+}
+#img2 {
+    
+}
+#img2:hover {
+    /*-webkit-transform: scale(14deg);
+    -webkit-transform: rotate(14deg);*/
+    -webkit-transform: skew(14deg,3deg);*/
+}
