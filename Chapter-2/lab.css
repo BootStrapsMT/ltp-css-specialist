@@ -1,0 +1,22 @@
+body{
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;
+    background-size: 5%
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#my_menu .submenu ul{
+    display: none;
+}
+#my_menu .submenu:hover ul{
+    display: block;
+    list-style-type:  none;
+}
