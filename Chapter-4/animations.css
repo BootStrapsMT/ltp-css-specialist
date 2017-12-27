@@ -1,0 +1,16 @@
+
+p {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    -webkit-animation: colorChange 15s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes colorChange{
+    0% {background-color: red;}
+    33% {background-color:  green;}
+    66% {background-color:  orange;}  
+    100% {background-color:  blue;}    
+}

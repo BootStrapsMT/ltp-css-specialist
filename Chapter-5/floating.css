@@ -1,0 +1,22 @@
+
+.showB {
+    background-color: lightgray;
+}
+
+#targetLeft {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    
+    float: left;
+    
+}
+
+#targetRight {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    
+    float: right;
+     
+}

@@ -5,13 +5,13 @@ p {
 
 .slider {
     top:  200px;
+    position: absolute;
     left: 0px;
     height: 30px;
     line-height: 30px;
     
     width: 0px;
-    overflow: hidden;
-        
+    overflow: hidden;        
     
     padding-left: 15px;
     background-color: gray;
@@ -23,9 +23,10 @@ p {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     
-     -webkit-transition: width 2s, backgroud-color 5.5s;
+     -webkit-transition: width 2s, background-color 5.5s;
      -webkit-transition-timing-function: linear;
 }
 .slider:hover {
-    
+    width: 80px;
+    background-color:azure;
 }

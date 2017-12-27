@@ -1,0 +1,11 @@
+
+.showB {
+    background-color:lightgray;
+}
+
+#target {
+    background-color: gray;
+    position: fixed;
+    top: 25%;
+    z-index: -1
+}

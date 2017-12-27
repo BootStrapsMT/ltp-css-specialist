@@ -1,0 +1,27 @@
+
+#img1 {
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    left: 200px;
+    
+    position: fixed;
+    z-index: -1;
+}
+#img2 {
+    width: 100px;
+    height: 100px;
+    top:  500px;
+    left: 200px;
+    position: absolute;
+    float: right;
+    display: block;
+}
+
+#s3 {
+    display: block;
+}
+
+#p1, #p2 {
+    display: inline;
+}
